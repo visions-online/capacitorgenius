@@ -1,0 +1,98 @@
+# Site settings
+baseURL = "https://www.capacitorgenius.com"
+languageCode = "en-US"
+title = "Michael H Freeman"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "G-F32E8MYKND"
+
+# Copyright
+copyright = "&copy;2021 Michael H. Freeman   "
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Michael H. Freeman"
+  description = "Michael H Freeman founded Smart Prong Technologies, Inc. also known as Semitrex and Helix Semiconductors in 2012"
+  shareImage = "images/background.jpg"
+  twitterHandle = "thesaintmichael"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+    
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Phone"
+        url = "#"
+    
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mhf1701@gmail.com"
+    
+      [[params.links.list1.link]]
+        text = "Linked In"
+        url = "https://www.linkedin.com/in/michael-freeman-j-d-716a8111/"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Facebook"
+        url = "https://www.facebook.com/MichaelHayesFreeman"
+    
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/thesaintmichael/?hl=en"
+    
+      [[params.links.list2.link]]
+        text = "Wikipedia"
+        url = "https://en.wikipedia.org/wiki/Helix_Semiconductors"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Network"
+
+      [[params.links.list3.link]]
+        text = "Pulse Magazine"
+        url = "#"
+    
+      [[params.links.list3.link]]
+        text = "Tulsa World"
+        url = "#"
+    
+      [[params.links.list3.link]]
+        text = "Semitrex"
+        url = "#"
+
+  # The End
