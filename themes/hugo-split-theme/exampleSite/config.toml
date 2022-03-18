@@ -1,7 +1,7 @@
 # Site settings
-baseURL = "https://www.capacitorgenius.com"
+baseURL = "https://example.com"
 languageCode = "en-US"
-title = "Michael H Freeman"
+title = "Split - HTML Template Demo"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
@@ -10,18 +10,18 @@ relativeURLs = true
 uglyURLs = true
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "G-F32E8MYKND"
+googleAnalytics = ""
 
 # Copyright
-copyright = "&copy;2021-2022 Visions and Voices   "
+copyright = "&copy;2021 Your Name"
 
 [params]
 
   # Metadata for search engines and social sharing
-  author = "Michael H. Freeman"
-  description = "Michael H Freeman founded Smart Prong Technologies, Inc. also known as Semitrex and Helix Semiconductors in 2012"
-  shareImage = "images/background.jpg"
-  twitterHandle = "thesaintmichael"
+  author = "Jenny Jones"
+  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  shareImage = "images/social.jpg"
+  twitterHandle = "onepagelove"
 
   # Favicon
   favicon = "favicon.ico"
@@ -34,7 +34,7 @@ copyright = "&copy;2021-2022 Visions and Voices   "
       enable = true
       file = "images/background.jpg"
       position = "center center"
-    
+
     # Video
     [params.visual.video]
       enable = false
@@ -50,16 +50,16 @@ copyright = "&copy;2021-2022 Visions and Voices   "
       heading = "Connect"
 
       [[params.links.list1.link]]
-        text = "Phone"
-        url = "949-630-8607"
-    
+        text = "Blog"
+        url = "#"
+
       [[params.links.list1.link]]
         text = "Email"
-        url = "mhf1701@gmail.com"
-    
+        url = "#"
+
       [[params.links.list1.link]]
-        text = "Linked In"
-        url = "https://www.linkedin.com/in/michael-freeman-j-d-716a8111/"
+        text = "Newsletter"
+        url = "#"
 
   # Links List #2
   [[params.links]]
@@ -67,16 +67,16 @@ copyright = "&copy;2021-2022 Visions and Voices   "
       heading = "Social"
 
       [[params.links.list2.link]]
-        text = "Facebook"
-        url = "https://www.facebook.com/MichaelHayesFreeman"
-    
+        text = "Twitter"
+        url = "#"
+
       [[params.links.list2.link]]
         text = "Instagram"
-        url = "https://www.instagram.com/thesaintmichael/?hl=en"
-    
+        url = "#"
+
       [[params.links.list2.link]]
-        text = "Wikipedia"
-        url = "https://en.wikipedia.org/wiki/Helix_Semiconductors"
+        text = "Dribbble"
+        url = "#"
 
   # Links List #3
   [[params.links]]
@@ -84,15 +84,18 @@ copyright = "&copy;2021-2022 Visions and Voices   "
       heading = "Network"
 
       [[params.links.list3.link]]
-        text = "Pulse Magazine"
-        url = "#"
-    
-      [[params.links.list3.link]]
-        text = "Tulsa World"
-        url = "#"
-    
-      [[params.links.list3.link]]
-        text = "Semitrex"
+        text = "Link One"
         url = "#"
 
-  # The End
+      [[params.links.list3.link]]
+        text = "Link Two"
+        url = "#"
+
+      [[params.links.list3.link]]
+        text = "Link Three"
+        url = "#"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
