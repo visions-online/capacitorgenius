@@ -2,15 +2,15 @@
 baseURL = "https://www.capacitorgenius.com"
 languageCode = "en-US"
 title = "Michael H Freeman"
-theme = "hugo-split-theme"
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+theme = "st"
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
 # Local preview mode
 relativeURLs = true
 uglyURLs = true
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "G-F32E8MYKND"
+googleAnalytics = "UA-219336890-4"
 
 # Copyright
 copyright = "&copy;2021-2022 Visions and Voices   "
