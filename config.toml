@@ -51,11 +51,11 @@ copyright = "&copy;2021-2022 Visions and Voices   "
 
       [[params.links.list1.link]]
         text = "Phone"
-        url = "949-630-8607"
+        url = "tel:9496308607"
     
       [[params.links.list1.link]]
         text = "Email"
-        url = "mhf1701@gmail.com"
+        url = "mailto:mhf1701@gmail.com"
     
       [[params.links.list1.link]]
         text = "Linked In"
