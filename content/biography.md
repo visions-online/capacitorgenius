@@ -2,9 +2,9 @@
 title = "Michael H. Freeman biography"
 +++
 
-# Business Biography of Michael Hayes Freeman, J.D.
+## Business Biography of Michael Hayes Freeman, J.D.
 
-## Education: 
+### Education: 
 > Oklahoma State University - Bachelor of Science
 
 > University of Tulsa School of Law - Juris Doctorate
@@ -70,7 +70,7 @@ Upon Ocutrx receiving the patent on the Near-Eye Pupil-Forming Catadioptric Opti
 
 L to R Mark Radcliffe, Studio Exec, Chris Columbus, Michael Freeman, Michael Barnathan
 
-## Awards and Commendations
+### Awards and Commendations
 
 **State of Louisiana:**
 *October 1992*
